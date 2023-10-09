@@ -31,7 +31,9 @@ function chooseColorByOption (color) {
           return "#00D930";
       case "neutral": 
           return "#FFE661";
-       case "bad": 
+      case "bad": 
           return "#DD2800";
-        }
+      default:
+         return "#DD2800";
+      }
   }

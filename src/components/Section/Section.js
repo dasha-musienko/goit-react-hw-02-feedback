@@ -1,4 +1,4 @@
-import { SectionWrapper } from "./Section.styled"
+import { SectionWrapper } from './Section.styled';
 
 export const Section = ({ title, children }) => {
   return (
@@ -6,5 +6,5 @@ export const Section = ({ title, children }) => {
       <h1>{title}</h1>
       {children}
     </SectionWrapper>
-  )
-}
+  );
+};

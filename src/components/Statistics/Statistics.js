@@ -1,6 +1,12 @@
-import { StatsWrapper } from "./Statistics.styled"
+import { StatsWrapper } from './Statistics.styled';
 
-export const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
+export const Statistics = ({
+  good,
+  neutral,
+  bad,
+  total,
+  positivePercentage,
+}) => {
   return (
     <StatsWrapper>
       <li>Good: {good}</li>
@@ -9,5 +15,5 @@ export const Statistics = ({ good, neutral, bad, total, positivePercentage }) =>
       <li>Total: {total}</li>
       <li>Positive feedback: {positivePercentage}%</li>
     </StatsWrapper>
-  )
-}
+  );
+};

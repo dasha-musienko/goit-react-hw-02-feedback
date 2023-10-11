@@ -9,6 +9,6 @@ export const SectionWrapper = styled.div`
   > h1 {
     font-size: 32px;
     font-weight: 600;
-    color: #3E3E3E;
+    color: #3e3e3e;
   }
 `;
